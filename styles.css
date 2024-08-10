@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar, .main-content, .right-sidebar {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 1;
+    max-width: 250px;
+}
+
+.main-content {
+    flex: 2;
+    margin: 0 20px;
+}
+
+.right-sidebar {
+    flex: 1;
+    max-width: 300px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.sidebar-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu ul li {
+    padding: 15px 0;
+    font-size: 18px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu ul li i {
+    margin-right: 10px;
+}
+
+.post-box {
+    display: flex;
+    align-items: start;
+    background-color: #eef3f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+    font-size: 16px;
+}
+
+.post {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.post-content {
+    margin-left: 10px;
+}
+
+.post-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.post-actions i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ad-section, .trending-section {
+    margin-top: 20px;
+}
+
+.ad-section h3, .trending-section h3 {
+    margin-top: 0;
+}
+
+.trending-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trending-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e8ed;
+    font-size: 14px;
+}
